@@ -1,4 +1,4 @@
-package org.javafx.framework.wfx.momentums;
+package org.javafx.framework.wfx.momentum;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

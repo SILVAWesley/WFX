@@ -1,4 +1,4 @@
-package org.javafx.framework.wfx.panes;
+package org.javafx.framework.wfx.pane;
 
 import javafx.scene.Scene;
 import javafx.stage.Stage;

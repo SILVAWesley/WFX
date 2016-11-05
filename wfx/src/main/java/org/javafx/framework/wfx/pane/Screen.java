@@ -1,11 +1,11 @@
-package org.javafx.framework.wfx.panes;
+package org.javafx.framework.wfx.pane;
 
 import java.lang.reflect.Method;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.javafx.framework.wfx.controllers.PackControlled;
-import org.javafx.framework.wfx.momentums.Momentum;
+import org.javafx.framework.wfx.controller.PackControlled;
+import org.javafx.framework.wfx.momentum.Momentum;
 
 import javafx.scene.layout.Pane;
 

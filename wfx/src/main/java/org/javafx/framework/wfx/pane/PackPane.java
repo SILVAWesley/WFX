@@ -1,12 +1,12 @@
-package org.javafx.framework.wfx.panes;
+package org.javafx.framework.wfx.pane;
 
 import java.net.URL;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.javafx.framework.wfx.controllers.PackControlled;
-import org.javafx.framework.wfx.momentums.Momentum;
+import org.javafx.framework.wfx.controller.PackControlled;
+import org.javafx.framework.wfx.momentum.Momentum;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -52,7 +52,6 @@ public class PackPane extends StackPane {
 		}
 	}
 	
-	// IS WRONG
 	public void loadScreen(String id, Pane pane) {
 		if (pane instanceof PackControlled) {
 			PackControlled slidedPane = (PackControlled) pane;

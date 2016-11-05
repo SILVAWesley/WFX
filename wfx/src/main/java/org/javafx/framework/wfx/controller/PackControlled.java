@@ -1,6 +1,6 @@
-package org.javafx.framework.wfx.controllers;
+package org.javafx.framework.wfx.controller;
 
-import org.javafx.framework.wfx.panes.PackPane;
+import org.javafx.framework.wfx.pane.PackPane;
 
 public interface PackControlled {
 	public void setPackController(PackPane slideParent);

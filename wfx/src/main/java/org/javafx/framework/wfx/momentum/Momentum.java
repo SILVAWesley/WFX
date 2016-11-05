@@ -1,9 +1,9 @@
-package org.javafx.framework.wfx.momentums;
+package org.javafx.framework.wfx.momentum;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
-import org.javafx.framework.wfx.controllers.PackControlled;
+import org.javafx.framework.wfx.controller.PackControlled;
 
 public enum Momentum {
 	AFTER_LOAD("afterLoad"), 
