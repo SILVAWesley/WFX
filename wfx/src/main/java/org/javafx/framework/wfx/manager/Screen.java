@@ -1,4 +1,4 @@
-package org.javafx.framework.wfx.pane;
+package org.javafx.framework.wfx.manager;
 
 import java.lang.reflect.Method;
 import java.util.LinkedList;

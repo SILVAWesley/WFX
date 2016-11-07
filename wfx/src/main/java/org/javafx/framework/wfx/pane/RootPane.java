@@ -1,6 +1,7 @@
 package org.javafx.framework.wfx.pane;
 
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class RootPane extends PackPane {
@@ -8,7 +9,9 @@ public class RootPane extends PackPane {
 	
 	public RootPane(Stage stage, double width, double height, int stackSize) {
 		super(stackSize);
-		scene = new Scene(this, width, height);
+		AnchorPane anchorPane = new AnchorPane();
+		anchorPane.getChildren().add(this);
+		scene = new Scene(anchorPane, width, height);
 		stage.setScene(scene);
 	}
 	
