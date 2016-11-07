@@ -91,6 +91,7 @@ public class PackPane extends StackPane {
 	
 	public boolean showScreen(String id) {
 		Screen screen = findById(id);
+		
 		if (screen == null) return false;
 		screen.invokeMomentum(Momentum.BEFORE_SHOW);
 		if (showIdStack.size() > 0) findById(showIdStack.getFirst()).invokeMomentum(Momentum.BEFORE_UNSHOW);
@@ -134,7 +135,9 @@ public class PackPane extends StackPane {
 	
 	private Screen findById(String id) {
 		for (Screen screen : loadedScreens) {
-			return screen;
+			if (screen.getId().equals(id)) {
+				return screen;
+			}
 		}
 		
 		throw new RuntimeException();
