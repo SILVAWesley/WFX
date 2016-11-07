@@ -13,6 +13,7 @@ public class RootPane extends PackPane {
 		anchorPane.getChildren().add(this);
 		scene = new Scene(anchorPane, width, height);
 		stage.setScene(scene);
+		stage.show();
 	}
 	
 	public RootPane(Stage stage, double width, double height) {
