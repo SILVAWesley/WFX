@@ -1,4 +1,4 @@
-package org.javafx.framework.wfx.manager;
+package org.javafx.framework.wfx.util;
 
 import java.lang.reflect.Method;
 import java.util.LinkedList;

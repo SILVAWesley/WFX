@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.javafx.framework.wfx.controller.PackControlled;
-import org.javafx.framework.wfx.manager.Screen;
 import org.javafx.framework.wfx.momentum.Momentum;
+import org.javafx.framework.wfx.util.Screen;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
